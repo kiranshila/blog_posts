@@ -5,6 +5,7 @@ date: 2022-02-15T00:00:00+00:00
 lastmod: 2022-03-04T00:00:00+00:00
 tags:
   - rust
+  - draft
 ---
 
 I've been playing around with [rust](https://www.rust-lang.org/) a lot recently
