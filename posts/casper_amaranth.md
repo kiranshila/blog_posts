@@ -798,4 +798,7 @@ in the design as well as reimplimenting more of my questionable blocks.
 I hope more CASPERites pick up Amaranth and maybe we can work together to form
 a nice standard library and board definitions for the CASPER products.
 
+If you would like to see more on how I'm incorporating Amaranth in a radio telescope
+gateware, check out the project's repository [here](https://github.com/GReX-Telescope/gateware).
+
 Thanks for reading!
