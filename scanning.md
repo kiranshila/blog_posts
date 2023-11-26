@@ -7,7 +7,7 @@ draft: false
 
 I've been a long-time fan of analog photography. While shooting is fun, the digitization step has always been pretty tedious and unsatisfying. For 35mm, I bought a purpose-built scanner, the [PrimeFilm](https://www.scanace.com/product/film-scanners) XA Super. This is a pretty nice device, especially paired with [VueScan](https://www.hamrick.com/). The scanner is unfortunately out of production now, but they can be had for not that much on eBay.
 
-For medium and large format, however, things get tricky. There's quite a few different medium format formats, and large format is, well, large. Usually, people then resort to flatbed scanning as an "all in one" solution. I picked up an Epson v700 not too long ago from a dentist that was going out of business, but have been unsatisfied with the results (as people will often tell you). 
+For medium and large format, however, things get tricky. There's quite a few different medium format formats, and large format is, well, large. Usually, people then resort to flatbed scanning as an "all in one" solution. I picked up an Epson v700 not too long ago from a dentist that was going out of business, but have been unsatisfied with the results (as people will often tell you).
 
 The first quirk of this scanner, as I found out, is that the optimum focus is some arbitrary distance off the glass when scanning in transparency mode. There are a bunch of holders out there for 35mm to 8x10, but most of them are total junk. And if they are even adjustable, many have fixed positions - which is not quite correct as the focus isn't some discrete distance from the surface of the glass.
 
@@ -38,7 +38,7 @@ Here is a screenshot of those settings
 
 ## Procedure
 
-So, the adjustable holder has eight set screws, all of which increase the height by 200 um when rotated a quarter turn. I zeroed them out and marked their position. Then, I took 15 measurements (scans of the razor's edge), each increasing the focus by 200um. As I measured the holder with calipers, the "zero" position was at 1.524 mm, so 15 quarter-turns puts us at a maximum of 4.124 mm, which should be past the focus. 
+So, the adjustable holder has eight set screws, all of which increase the height by 200 um when rotated a quarter turn. I zeroed them out and marked their position. Then, I took 15 measurements (scans of the razor's edge), each increasing the focus by 200um. As I measured the holder with calipers, the "zero" position was at 1.524 mm, so 15 quarter-turns puts us at a maximum of 4.124 mm, which should be past the focus.
 
 After I have all these (labeled) TIF files, I move on to compute the MTF50 using a program called [ImageJ](https://imagej.net/ij/). You'll also need the Slanted-Edge MTF [plugin](https://imagej.net/ij/ij/plugins/se-mtf/index.html).
 
@@ -46,12 +46,12 @@ Using ImageJ, you open an image, go to plugins, and run `SE MTF2xNyquist`. You c
 
 ![](/assets/MTF.png)
 
-From there, I zoomed into the curve at the MTF = 0.5 point, and read off the x-value in cycles/pixel. 
+From there, I zoomed into the curve at the MTF = 0.5 point, and read off the x-value in cycles/pixel.
 
 After doing this for every image I got the following measurements (including a zero point with no holder):
 
 | Focus Height (mm) | MTF50 (c/p) |
-|-------------------|-------------|
+| ----------------- | ----------- |
 | 0                 | 0.292       |
 | 1.524             | 0.0497      |
 | 1.724             | 0.0541      |
