@@ -1,5 +1,5 @@
 ---
-title: "Objectively Optimizing My Scanner for Large Format Photography"
+title: "Optimizing My Scanner for Large Format Photography"
 date: 2023-11-25
 tags: ["photography"]
 draft: false
@@ -7,7 +7,7 @@ draft: false
 
 I've been a long-time fan of analog photography. While shooting is fun, the digitization step has always been pretty tedious and unsatisfying. For 35mm, I bought a purpose-built scanner, the [PrimeFilm](https://www.scanace.com/product/film-scanners) XA Super. This is a pretty nice device, especially paired with [VueScan](https://www.hamrick.com/). The scanner is unfortunately out of production now, but they can be had for not that much on eBay.
 
-For medium and large format, however, things get tricky. There's quite a few different medium format formats, and large format is, well, large. Usually, people then resort to flatbed scanning as an "all in one" solution. I picked up an Epson v700 not too long ago from a dentist that was going out of business, but have been unsatisfied with the results (as people will tell you). 
+For medium and large format, however, things get tricky. There's quite a few different medium format formats, and large format is, well, large. Usually, people then resort to flatbed scanning as an "all in one" solution. I picked up an Epson v700 not too long ago from a dentist that was going out of business, but have been unsatisfied with the results (as people will often tell you). 
 
 The first quirk of this scanner, as I found out, is that the optimum focus is some arbitrary distance off the glass when scanning in transparency mode. There are a bunch of holders out there for 35mm to 8x10, but most of them are total junk. And if they are even adjustable, many have fixed positions - which is not quite correct as the focus isn't some discrete distance from the surface of the glass.
 
