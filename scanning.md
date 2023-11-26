@@ -1,5 +1,5 @@
 ---
-title: "Optimizing My Scanner for Large Format Photography"
+title: "Objectively Optimizing My Scanner"
 date: 2023-11-25
 tags: ["photography"]
 draft: false
