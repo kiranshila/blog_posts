@@ -52,7 +52,7 @@ After doing this for every image I got the following measurements (including a z
 
 | Focus Height (mm) | MTF50 (c/p) |
 | ----------------- | ----------- |
-| 0                 | 0.292       |
+| 0                 | 0.0292       |
 | 1.524             | 0.0497      |
 | 1.724             | 0.0541      |
 | 1.924             | 0.0566      |
